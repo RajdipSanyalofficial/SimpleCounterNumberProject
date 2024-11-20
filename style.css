@@ -33,3 +33,15 @@ body
 {
     background-color: rgb(206, 74, 74);
 }
+
+
+@media(max-width:379px) and (min-width:272px) {
+    
+
+    #buttons
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+}
